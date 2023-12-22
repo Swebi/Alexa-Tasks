@@ -1,6 +1,7 @@
-## JavaScript Task making using of objects, classes, try catch and various other methods
+# JavaScript Task
+Making using of objects, classes, try catch and various other methods
 
-# Install prompt-sync module using
+## Install prompt-sync module using
 ```
 $ npm install prompt-sync
 ```
