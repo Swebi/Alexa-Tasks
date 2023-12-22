@@ -34,11 +34,19 @@ function displayall() {
 
 function displaysearch() {
   const search = prompt("Enter name ");
+  let found = 0;
 
   for (entry of entries) {
     if (search === entry.name) {
       console.log(entry);
+      found = 1;
+      break;
+
     } else {
+      found = 0;
+    }
+
+    if (found==0){
       throw new Error("Not Found");
     }
   }
